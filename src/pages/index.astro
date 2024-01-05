@@ -1,0 +1,36 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+---
+
+<Layout
+  title="ReggiMarengo | Estudio Inmobiliario"
+  description="Página web en construccion"
+>
+  <main
+    class="flex min-h-screen flex-col items-center justify-center p-4 text-center"
+  >
+    <Header />
+
+    <hr class="border-marengo/20 m-10 w-3/4 max-w-2xl" />
+
+    <h1 class="mb-2 text-3xl">Estamos trabajando en nuestra página web</h1>
+    <p class="mb-8 px-4 text-lg md:px-0">
+      Si lo deseas, puedes contactar a través de nuestros emails.
+    </p>
+
+    <div class="flex flex-wrap justify-center gap-4">
+      <a
+        href="mailto:valeria@reggimarengo.com"
+        class="bg-marengo hover:bg-marengo/50 text-reggi rounded-md px-4 py-2 transition-opacity"
+        >valeria@reggimarengo.com</a
+      >
+
+      <a
+        href="mailto:melisa@reggimarengo.com"
+        class="bg-marengo hover:bg-marengo/50 text-reggi rounded-md px-4 py-2 transition-opacity"
+        >melisa@reggimarengo.com</a
+      >
+    </div>
+  </main>
+</Layout>
